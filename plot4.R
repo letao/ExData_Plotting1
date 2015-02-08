@@ -15,7 +15,7 @@ data$TD <- strptime(paste(data$Date, data$Time, sep = ","), format ="%d/%m/%Y,%H
 
 png(file = "plot4.png")
 
-par(mfrow = c(2,2), mar = c(4,4,2,1), oma = c(0, 0, 2, 0))
+par(mfrow = c(2,2), mar = c(4,4,2,2), oma = c(1, 0, 0, 0))
 
 with(data, {
       plot(data$TD, data$Global_active_power,
