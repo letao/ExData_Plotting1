@@ -13,7 +13,7 @@ data$TD <- strptime(paste(data$Date, data$Time, sep = ","), format ="%d/%m/%Y,%H
 
 ## creates the required plot 3 and prints it as a png file
 
-png(file = "plot3")
+png(file = "plot3.png")
 
 with(data, plot(data$TD, data$Sub_metering_1,
      type = "n",

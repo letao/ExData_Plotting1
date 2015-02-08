@@ -13,7 +13,7 @@ data$TD <- strptime(paste(data$Date, data$Time, sep = ","), format ="%d/%m/%Y,%H
 
 ## creates the required plot 1 and prints it as a png file
 
-png(file = "plot1")
+png(file = "plot1.png")
 
 hist(data$Global_active_power,
      main = "Global Active Power",
