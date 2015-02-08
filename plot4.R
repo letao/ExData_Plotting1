@@ -44,7 +44,7 @@ with(data, {
       
       plot(data$TD, data$Global_reactive_power,
            type = "l",
-           xlab = "",
+           xlab = "datetime",
            ylab = "Global_reactive_power")
 })
 
